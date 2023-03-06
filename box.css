@@ -4,4 +4,5 @@
     border:2px solid black;
     background-image: url("https://th.bing.com/th/id/R.998c71541e61e2e7dcdb99269620f5e5?rik=zqgfdkF%2fr6dr3g&riu=http%3a%2f%2fclipart-library.com%2fimg%2f811018.jpg&ehk=uF4HNoiG2mHGJgdeJUF6xk306zrI7%2fIHlP4Jv77o0cA%3d&risl=&pid=ImgRaw&r=0");
     background-size:contain;
+    transition: all 1s ease-in-out;
   }
