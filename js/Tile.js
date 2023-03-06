@@ -1,4 +1,4 @@
-class Tile {
+export class Tile {
 
     constructor(tileWidth, tileHeight, i, j) {
         let tile = document.createElement('div');

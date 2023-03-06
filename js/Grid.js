@@ -1,4 +1,5 @@
-class Grid {
+import {Tile} from './Tile.js';
+export class Grid {
 
     constructor(size) {
         if(size === undefined) size = 5; // Fallback
