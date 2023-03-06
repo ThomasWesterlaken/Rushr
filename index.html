@@ -5,8 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RushR</title>
+    <script src="/js/Grid.js" defer></script>
+    <script src="/js/Tile.js" defer></script>
+    <script src="/js/Product.js" defer></script>
+    <script src="/js/Main.js" defer></script>
 </head>
 <body>
-    
+<div class="container">
+    <div id="grid"></div>
+</div>
 </body>
+
+<style>
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #grid {
+        width: 500px;
+        height: 500px;
+        background-color: red;
+        position: relative;
+    }
+</style>
 </html>
